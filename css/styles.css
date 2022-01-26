@@ -111,7 +111,7 @@ web color #2196F3 */
 }
 .hero-title {
     color: var(--primery-whitecolor);
-    font-style: 400;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;   
@@ -120,7 +120,7 @@ web color #2196F3 */
     text-transform: uppercase;
 }
 
-.button {
+.hero .button {
     color: var(--primery-whitecolor);
     background-color: var(--accent-color);
 
@@ -279,8 +279,5 @@ web color #2196F3 */
             line-height: 1.2;
         }
 
-
-    
-        
 
       
