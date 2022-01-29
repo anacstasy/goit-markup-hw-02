@@ -248,9 +248,10 @@ web color #2196F3 */
 
         /* portfolio.html */
    
-        .buttons {
+        .section .buttons .list {
             color: var(--main-text-color);
 
+            font-family: inherit;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.62;
@@ -258,7 +259,7 @@ web color #2196F3 */
             text-align: center;
         }
 
-        .buttons .buttons-list:hover, .buttons .buttons-list:focus {
+        .buttons .list:hover, .buttons .list:focus {
             color: var(--primery-whitecolor);
             background-color: var(--accent-color);
 
@@ -284,6 +285,3 @@ web color #2196F3 */
             font-size: 16px;
             line-height: 1.2;
         }
-
-
-      
