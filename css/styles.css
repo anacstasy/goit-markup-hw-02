@@ -89,14 +89,12 @@
   line-height: 1.5;
 
   letter-spacing: 0.02em;
+
+  color: 434455;
 }
 
 .contacts {
   font-style: normal;
-}
-
-.contact-link {
-  color: var(--secondary-text-color);
 }
 
 .auth-nav .link:hover,
@@ -257,7 +255,12 @@
   letter-spacing: 0.04em;
 
   color: var(--accent-color);
+
   cursor: pointer;
+}
+
+.button-container {
+  background-color: #f4f4fd;
 }
 
 .buttons .list:hover,
@@ -272,7 +275,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
