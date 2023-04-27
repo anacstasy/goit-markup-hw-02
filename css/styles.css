@@ -10,7 +10,7 @@
 /* index.html */
 
 .page {
-  color: #434455;
+  color: var(--secondary-text-color);
   background-color: var(--primery-whitecolor);
 
   font-family: Roboto, sans-serif;
@@ -39,6 +39,8 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: var(--accent-color);
 }
 
 .main-logo {
@@ -75,14 +77,13 @@
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 /* Site nav page 1-2 */
 
 .auth-nav {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -90,8 +91,11 @@
   letter-spacing: 0.02em;
 }
 
-.mail,
-.phone-number {
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
   color: var(--secondary-text-color);
 }
 
@@ -99,7 +103,7 @@
 .auth-nav .link:focus,
 .footer-nav .link:hover,
 .footer-nav .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 /* hero */
