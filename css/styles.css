@@ -1,27 +1,3 @@
-/* body font-family roboto  */
-/* body text color: #2E2F42;
-
-secondary text color #434455;
-link and contact color #757575 
-accent color #2196F3 */
-
-/* logo font  Oleo Script
-web color #2196F3 */
-
-/* body text hover color white*/
-
-/* header background color #FFFFFF 
-          text hover color #2196F3 */
-
-/* main
-       background color #E5E5E5  
-       text hover color white 
-       button hover volor blue*/
-/* footer
-       background color  #E5E5E5 */
-
-/* Переменные */
-
 :root {
   --main-text-color: #2e2f42;
   --secondary-text-color: #434455;
@@ -34,7 +10,7 @@ web color #2196F3 */
 /* index.html */
 
 .page {
-  color: var(--main-text-color);
+  color: #434455;
   background-color: var(--primery-whitecolor);
 
   font-family: Roboto, sans-serif;
@@ -63,12 +39,24 @@ web color #2196F3 */
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
 
+.main-logo {
   color: var(--main-text-color);
 }
 
 .blue-logo {
   color: var(--accent-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /*  Site nav */
