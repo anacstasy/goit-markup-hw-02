@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -15,7 +17,7 @@
     <!-- Шапка сайта -->
     <header class="main-header">
       <nav class="page-nav">
-        <a class="link logo" href="./index.html"> Web<span class="main-logo">Studio</span></a>
+        <a class="link logo" href="./index.html">Web<span class="main-logo">Studio</span></a>
         <ul class="menu list">
           <li class="menu-item"><a class="menu-link link list" href="./index.html">Studio</a></li>
           <li class="menu-item">
@@ -42,7 +44,7 @@
       </section>
       <!-- Особенности. Вложенный списк -->
       <section class="feature">
-        <h2 style="display: none">Peculiarities</h2>
+        <h2 class="hidden" style="display: none">Peculiarities</h2>
         <ul class="list">
           <li>
             <h3 class="feature-title">Strategy</h3>
@@ -99,15 +101,18 @@
           </li>
         </ul>
       </section>
+
+      !-- section-workers --!
+
       <section class="section-workers">
         <h2 class="title-team">Our Team</h2>
         <ul class="list">
-          <li>
+          <li class="cards">
             <img class="team-img" src="./images/mark.jpg" alt="Man in blue shirt" width="264" />
             <h3 class="title-master">Mark Guerrero</h3>
             <p class="list-description" lang="en">Product Designer</p>
           </li>
-          <li>
+          <li class="cards">
             <img
               class="team-img"
               src="./images/tom.jpg"
@@ -117,7 +122,7 @@
             <h3 class="title-master">Tom Ford</h3>
             <p class="list-description" lang="en">Frontend Developer</p>
           </li>
-          <li>
+          <li class="cards">
             <img
               class="team-img"
               src="./images/camila.jpg"
@@ -127,7 +132,7 @@
             <h3 class="title-master">Camila Garcia</h3>
             <p class="list-description" lang="en">Marketing</p>
           </li>
-          <li>
+          <li class="cards">
             <img class="team-img" src="./images/dan.jpg" alt="Man in a gray t-shirt" width="264" />
             <h3 class="title-master">Daniel Wilson</h3>
             <p class="list-description" lang="en">UI Designer</p>
@@ -136,7 +141,7 @@
       </section>
     </main>
     <footer class="footer-section">
-      <a class="link logo" href="./index.html"> Web<span class="footer-logo">Studio</span></a>
+      <a class="link logo" href="./index.html">Web<span class="footer-logo">Studio</span></a>
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.

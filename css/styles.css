@@ -40,7 +40,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--accent-color);
+  color: #4d5ae5;
 }
 
 .main-logo {
@@ -140,6 +140,10 @@
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 /* feature-list */
 .feature-list {
   font-family: 'Roboto', sans-serif;
@@ -203,6 +207,10 @@
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+}
+
+.cards {
+  background-color: var(--primery-whitecolor);
 }
 
 .list-description {
